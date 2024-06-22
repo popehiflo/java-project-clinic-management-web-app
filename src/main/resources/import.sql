@@ -20,6 +20,10 @@ INSERT INTO odontologos (matricula, nombre, apellido) VALUES ('11114', 'Cristina
 INSERT INTO odontologos (matricula, nombre, apellido) VALUES ('11113', 'Miranda', 'Bailey');
 INSERT INTO odontologos (matricula, nombre, apellido) VALUES ('11112', 'Meredith', 'Grey');
 
+-- Insertar registros en la tabla 'turnos'
+INSERT INTO turnos (paciente_id, odontologos_id, fecha) VALUES (1, 1, '2024-06-17');
+
+
 
 
 
