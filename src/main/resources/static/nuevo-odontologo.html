@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Odontólogos - popehiflo</title>
+    <meta name="description" content="Gestión de clínica odontológica by Pool Petter Hijuela Florian - popehiflo">
+    <meta content="" name="clínica, pacientes, doctores, citas, turnos">
+
+    <!-- Favicon -->
+    <link href="assets/img/favicon.svg" rel="shorcut icon" type="image/svg">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files - Bootstrap v5.3.3 -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ======= Header ======= -->
+<header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+            <img src="assets/img/logo-icon-popehiflo-blue.svg" alt="logo popehiflo">
+            <span class="d-none d-lg-block">Clínica</span>
+        </a>
+        <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+
+    <nav class="header-nav ms-auto">
+        <ul class="d-flex align-items-center">
+
+            <li class="nav-item dropdown pe-3">
+
+                <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+                    <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+                    <span class="d-none d-md-block dropdown-toggle ps-2" id="username">Usuario</span>
+                </a><!-- End Profile Image Icon -->
+
+                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                    <li class="dropdown-header">
+                        <h6>Nombre Usuario</h6>
+                        <span>Rol Usuario</span>
+                    </li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+
+                    <li>
+                        <a class="dropdown-item d-flex align-items-center" href="#">
+                            <i class="bi bi-person"></i>
+                            <span>Perfil</span>
+                        </a>
+                    </li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+
+                    <li>
+                        <a class="dropdown-item d-flex align-items-center" href="#">
+                            <i class="bi bi-gear"></i>
+                            <span>Configuración</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+
+                    <li>
+                        <a class="dropdown-item d-flex align-items-center" href="/logout">
+                            <i class="bi bi-box-arrow-right"></i>
+                            <span>Cerrar Sesión</span>
+                        </a>
+                    </li>
+
+                </ul><!-- End Profile Dropdown Items -->
+            </li><!-- End Profile Nav -->
+
+        </ul>
+    </nav><!-- End Icons Navigation -->
+
+</header><!-- End Header -->
+
+<!-- ======= Sidebar ======= -->
+<aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="index.html">
+                <i class="bi bi-grid"></i>
+                <span>Dashboard</span>
+            </a>
+        </li><!-- End Dashboard Nav -->
+
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#pacientes-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-journal-text"></i><span>Pacientes</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="pacientes-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <a href="post_pacientes.html">
+                        <i class="bi bi-circle"></i><span>Guardar</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="pacientes.html">
+                        <i class="bi bi-circle"></i><span>Listar</span>
+                    </a>
+                </li>
+            </ul>
+        </li><!-- End Pacientes Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link" data-bs-target="#odontologos-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-journal-text"></i><span>Odontólogos</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="odontologos-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
+                <li>
+                    <a href="nuevo-odontologo.html" class="active">
+                        <i class="bi bi-circle"></i><span>Guardar</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="odontologos.html">
+                        <i class="bi bi-circle"></i><span>Listar</span>
+                    </a>
+                </li>
+            </ul>
+        </li><!-- End Odontologos Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#turnos-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-calendar-date"></i><span>Turnos</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="turnos-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <a href="post_turnos">
+                        <i class="bi bi-circle"></i><span>Guardar</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="get_turnos">
+                        <i class="bi bi-circle"></i><span>Listar</span>
+                    </a>
+                </li>
+            </ul>
+        </li><!-- End Turnos Nav -->
+    </ul>
+
+</aside><!-- End Sidebar-->
+
+<main id="main" class="main">
+
+    <div class="pagetitle">
+        <h1>Odontólogos</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                <li class="breadcrumb-item">Odontólogos</li>
+                <li class="breadcrumb-item active">Nuevo</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Nuevo Odontólogo</h5>
+                        <form id="add_new_odontologo">
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="matricula">Matricula</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" id="matricula" name="matricula"
+                                           placeholder="Ingrese la matricula"
+                                           required type="text"></input>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="nombre">Nombre</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" id="nombre" name="nombre"
+                                           placeholder="Ingrese el nombre"
+                                           required type="text"></input>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="apellido">Apellido</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" id="apellido" name="apellido"
+                                           placeholder="Ingrese el apellido"
+                                           required type="text"></input>
+                                </div>
+                            </div>
+
+                            <div class="mb-3 text-center">
+                                <button class="btn btn-primary" id="btn-add-new-odontologo"
+                                        type="submit">Guardar
+                                </button>
+                                <a class="btn btn-secondary" href="./odontologos.html">Cancelar</a>
+                            </div>
+                        </form>
+                        <div id="response" style="display:none; margin-top:10px"></div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- End Form Odontólogo -->
+    </section>
+
+</main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer" class="footer">
+    <div class="copyright">
+        &copy; Copyright <strong><span>popehiflo</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+        Designed by <a href="https://popehiflo.github.io/">popehiflo</a>
+    </div>
+</footer><!-- End Footer -->
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
+<script src="/js/get_usuario.js" type="text/javascript"></script>
+<script src="/js/post_odontologo.js" type="text/javascript"></script>
+</body>
+
+</html>
