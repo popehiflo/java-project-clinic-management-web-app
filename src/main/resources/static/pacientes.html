@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Odontólogos - popehiflo</title>
+    <title>Pacientes - popehiflo</title>
     <meta name="description" content="Gestión de clínica odontológica by Pool Petter Hijuela Florian - popehiflo">
     <meta content="" name="clínica, pacientes, doctores, citas, turnos">
 
@@ -107,17 +107,17 @@
 
 
         <li class="nav-item">
-            <a class="nav-link collapsed" data-bs-target="#pacientes-nav" data-bs-toggle="collapse" href="#">
+            <a class="nav-link" data-bs-target="#pacientes-nav" data-bs-toggle="collapse" href="#">
                 <i class="bi bi-journal-text"></i><span>Pacientes</span><i class="bi bi-chevron-down ms-auto"></i>
             </a>
-            <ul id="pacientes-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <ul id="pacientes-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
                 <li>
                     <a href="nuevo-paciente.html">
                         <i class="bi bi-circle"></i><span>Guardar</span>
                     </a>
                 </li>
                 <li>
-                    <a href="pacientes.html">
+                    <a href="pacientes.html" class="active">
                         <i class="bi bi-circle"></i><span>Listar</span>
                     </a>
                 </li>
@@ -125,17 +125,17 @@
         </li><!-- End Pacientes Nav -->
 
         <li class="nav-item">
-            <a class="nav-link" data-bs-target="#odontologos-nav" data-bs-toggle="collapse" href="#">
+            <a class="nav-link collapsed" data-bs-target="#odontologos-nav" data-bs-toggle="collapse" href="#">
                 <i class="bi bi-journal-text"></i><span>Odontólogos</span><i class="bi bi-chevron-down ms-auto"></i>
             </a>
-            <ul id="odontologos-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
+            <ul id="odontologos-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
                 <li>
                     <a href="nuevo-odontologo.html">
                         <i class="bi bi-circle"></i><span>Guardar</span>
                     </a>
                 </li>
                 <li>
-                    <a href="odontologos.html" class="active">
+                    <a href="odontologos.html">
                         <i class="bi bi-circle"></i><span>Listar</span>
                     </a>
                 </li>
@@ -166,11 +166,11 @@
 <main id="main" class="main">
 
     <div class="pagetitle">
-        <h1>Odontólogos</h1>
+        <h1>Pacientes</h1>
         <nav>
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-                <li class="breadcrumb-item">Odontólogos</li>
+                <li class="breadcrumb-item">Pacientes</li>
                 <li class="breadcrumb-item active">Listar</li>
             </ol>
         </nav>
@@ -178,22 +178,25 @@
 
     <section class="section">
         <div class="row">
-            <div class="col-lg-12" id="div_odontologo_table">
+            <div class="col-lg-12" id="div_paciente_table">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Lista de Odontólogos</h5>
-                        <table class="table table-striped" id="odontologoTable">
+                        <h5 class="card-title">Lista de Pacientes</h5>
+                        <table class="table table-striped" id="pacienteTable">
                             <thead>
                                 <tr>
                                     <th scope="col">Id</th>
-                                    <th scope="col">Matricula</th>
                                     <th scope="col">Nombre</th>
                                     <th scope="col">Apellido</th>
+                                    <th scope="col">Cédula</th>
+                                    <th scope="col">Fecha de Ingreso</th>
+                                    <th scope="col">Calle</th>
+                                    <th scope="col">Correo</th>
                                     <th scope="col">Actualizar</th>
                                     <th scope="col">Eliminar</th>
                                 </tr>
                             </thead>
-                            <tbody id="odontologoTableBody">
+                            <tbody id="pacienteTableBody">
 
                             </tbody>
                         </table>
@@ -205,21 +208,15 @@
             <div id="response" style="display:none; margin:10px"></div>
         </div>
         <div class="row">
-            <div class="col-lg-6" id="div_odontologo_updating" style="display: none;">
+            <div class="col-lg-6" id="div_paciente_updating" style="display: none;">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Modificar Odontólogo</h5>
-                        <form id="update_odontologo_form">
+                        <form id="update_paciente_form">
                             <div class="row mb-3">
-                                <label class="col-sm-2 col-form-label" for="odontologo_id">Id</label>
+                                <label class="col-sm-2 col-form-label" for="paciente_id">Id</label>
                                 <div class="col-sm-10">
-                                    <input class="form-control" id="odontologo_id" readonly type="text">
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <label class="col-sm-2 col-form-label" for="matricula">Matricula</label>
-                                <div class="col-sm-10">
-                                    <input class="form-control" id="matricula" placeholder="matricula" type="text" required>
+                                    <input class="form-control" id="paciente_id" readonly type="text">
                                 </div>
                             </div>
                             <div class="row mb-3">
@@ -234,10 +231,70 @@
                                     <input class="form-control" id="apellido" placeholder="apellido" type="text" required>
                                 </div>
                             </div>
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="cedula">Cédula</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" id="cedula" placeholder="cedula" type="text" required>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="fechaIngreso">Ingreso</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" id="fechaIngreso" name="fechaIngreso"
+                                           placeholder="Fecha de ingreso: YYYY-MM-DD"
+                                           required type="text"></input>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="calle">Calle</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" id="calle" name="calle"
+                                           placeholder="Ingrese la calle"
+                                           required type="text"></input>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="numero">Numero</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" id="numero" name="numero"
+                                           placeholder="Ingrese el numero"
+                                           required type="text"></input>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="localidad">Localidad</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" id="localidad" name="localidad"
+                                           placeholder="Ingrese la localidad"
+                                           required type="text"></input>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="provincia">Provincia</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" id="provincia" name="provincia"
+                                           placeholder="Ingrese la provincia"
+                                           required type="text"></input>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="correo">Correo</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" id="correo" name="correo"
+                                           placeholder="Ingrese el correo"
+                                           required type="email"></input>
+                                </div>
+                            </div>
 
                             <div class="mb-3 text-center">
                                 <button class="btn btn-primary" type="submit">Modificar</button>
-                                <a class="btn btn-secondary" href="./odontologos.html">Cancelar</a>
+                                <a class="btn btn-secondary" href="./pacientes.html">Ir a lista de Pacientes</a>
                             </div>
                         </form>
                     </div>
@@ -267,9 +324,9 @@
 <script src="assets/js/main.js"></script>
 
 <script src="/js/get_usuario.js" type="text/javascript"></script>
-<script src="/js/odontologo/get_odontologos.js" type="text/javascript"></script>
-<script src="/js/odontologo/update_odontologo.js" type="text/javascript"></script>
-<script src="/js/odontologo/delete_odontologo.js" type="text/javascript"></script>
+<script src="/js/paciente/get_pacientes.js" type="text/javascript"></script>
+<script src="/js/paciente/update_paciente.js" type="text/javascript"></script>
+<script src="/js/paciente/delete_paciente.js" type="text/javascript"></script>
 </body>
 
 </html>
