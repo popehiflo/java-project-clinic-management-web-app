@@ -1,8 +1,9 @@
 package io.github.popehiflo.clinica.service;
 
 import io.github.popehiflo.clinica.entity.Paciente;
+import io.github.popehiflo.clinica.exception.DataIntegrityViolationException;
+import io.github.popehiflo.clinica.exception.ResourceNotFoundException;
 import io.github.popehiflo.clinica.repository.PacienteRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -11,27 +12,47 @@ import java.util.Optional;
 @Service
 public class PacienteService {
 
-    @Autowired
-    private PacienteRepository pacienteRepository;
+    private final PacienteRepository pacienteRepository;
+    private final TurnoService turnoService;
+
+    public PacienteService(PacienteRepository pacienteRepository, TurnoService turnoService) {
+        this.pacienteRepository = pacienteRepository;
+        this.turnoService = turnoService;
+    }
 
     public Paciente crearPaciente(Paciente paciente) {
         return pacienteRepository.save(paciente);
     }
 
-    public void actualizarPaciente(Paciente paciente) {
-        pacienteRepository.save(paciente);
+    public Paciente actualizarPaciente(Paciente paciente) {
+        Optional<Paciente> pacienteBuscado = pacienteRepository.findById(paciente.getId());
+        if (pacienteBuscado.isPresent()) {
+            return pacienteRepository.save(paciente);
+        } else {
+            throw new ResourceNotFoundException("Paciente no encontrado");
+        }
     }
 
-    public Optional<Paciente> buscarPacientePorID(Long id) {
-        return pacienteRepository.findById(id);
+    public Paciente buscarPacientePorID(Long id) {
+        return pacienteRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Paciente no encontrado"));
     }
 
-    public Optional<Paciente> buscarPacientePorCorreo(String correo) {
-        return pacienteRepository.findByCorreo(correo);
+    public Paciente buscarPacientePorCorreo(String correo) {
+        return pacienteRepository.findByCorreo(correo)
+                .orElseThrow(() -> new ResourceNotFoundException("Paciente no encontrado"));
     }
 
     public void eliminarPaciente(Long id) {
-        pacienteRepository.deleteById(id);
+        Optional<Paciente> pacienteBuscado = pacienteRepository.findById(id);
+        if (pacienteBuscado.isPresent()) {
+            if (turnoService.existeTurnoParaPaciente(id)) {
+                throw new DataIntegrityViolationException("No se puede eliminar el paciente porque tiene turnos asignados");
+            }
+            pacienteRepository.deleteById(id);
+        } else {
+            throw new ResourceNotFoundException("Paciente no encontrado");
+        }
     }
 
     public List<Paciente> listarTodosLosPacientes() {

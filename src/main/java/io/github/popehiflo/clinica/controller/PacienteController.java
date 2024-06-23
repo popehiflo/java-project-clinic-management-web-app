@@ -1,14 +1,15 @@
 package io.github.popehiflo.clinica.controller;
 
 import io.github.popehiflo.clinica.entity.Paciente;
+import io.github.popehiflo.clinica.exception.DataIntegrityViolationException;
+import io.github.popehiflo.clinica.exception.ResourceNotFoundException;
 import io.github.popehiflo.clinica.service.PacienteService;
 import org.apache.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/pacientes")
@@ -16,8 +17,11 @@ public class PacienteController {
 
     private static final Logger LOG = Logger.getLogger(PacienteController.class);
 
-    @Autowired
-    private PacienteService pacienteService;
+    private final PacienteService pacienteService;
+
+    public PacienteController(PacienteService pacienteService) {
+        this.pacienteService = pacienteService;
+    }
 
 
     @PostMapping
@@ -29,37 +33,21 @@ public class PacienteController {
     @GetMapping("/{id}")
     public ResponseEntity<Paciente> buscarPacientePorID(@PathVariable Long id) {
         LOG.info("Paciente: inicio de búsqueda de paciente por ID: {}");
-        Optional<Paciente> pacienteBuscado = pacienteService.buscarPacientePorID(id);
-        if (pacienteBuscado.isPresent()) {
-            return ResponseEntity.ok(pacienteBuscado.get());
-        } else {
-            //TODO: Aquí deberíamos lanzar una excepción ResourceNotFoundException o ObjectNotFoundException
-            return ResponseEntity.notFound().build();
-        }
+        Paciente pacienteBuscado = pacienteService.buscarPacientePorID(id);
+        return ResponseEntity.ok(pacienteBuscado);
     }
 
     @PutMapping
-    public ResponseEntity<String> actualizarPaciente(@RequestBody Paciente paciente) {
+    public ResponseEntity<Paciente> actualizarPaciente(@RequestBody Paciente paciente) {
         LOG.info("Paciente: inicio de actualizar: {}");
-        Optional<Paciente> pacienteBuscado = pacienteService.buscarPacientePorID(paciente.getId());
-        if (pacienteBuscado.isPresent()) {
-            pacienteService.actualizarPaciente(paciente);
-            return ResponseEntity.ok("paciente actualizado");
-        } else {
-            return ResponseEntity.badRequest().body("no se encontró el paciente");
-        }
-
+        Paciente pacienteActualizado = pacienteService.actualizarPaciente(paciente);
+        return ResponseEntity.ok(pacienteActualizado);
     }
 
     @GetMapping("/correo/{correo}")
     public ResponseEntity<Paciente> buscarPacientePorCorreo(@PathVariable String correo) {
-        Optional<Paciente> pacienteBuscado = pacienteService.buscarPacientePorCorreo(correo);
-        if (pacienteBuscado.isPresent()) {
-            return ResponseEntity.ok(pacienteBuscado.get());
-        } else {
-            //TODO: Aquí deberíamos lanzar una excepción ResourceNotFoundException o ObjectNotFoundException
-            return ResponseEntity.notFound().build();
-        }
+        Paciente pacienteBuscado = pacienteService.buscarPacientePorCorreo(correo);
+        return ResponseEntity.ok(pacienteBuscado);
     }
 
     @GetMapping
@@ -69,15 +57,15 @@ public class PacienteController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<String> eliminarPaciente(@PathVariable Long id) {
+    public ResponseEntity<String> eliminarPaciente(@PathVariable Long id) throws ResourceNotFoundException {
         LOG.info("Paciente: inicio de eliminar paciente con ID: {}");
-        Optional<Paciente> pacienteBuscado = pacienteService.buscarPacientePorID(id);
-        if (pacienteBuscado.isPresent()) {
+        try {
             pacienteService.eliminarPaciente(id);
-            return ResponseEntity.ok("paciente eliminado con exitosamente");
-        } else {
-            //TODO: Aquí deberíamos lanzar una excepción ResourceNotFoundException o ObjectNotFoundException
-            return ResponseEntity.notFound().build();
+            return ResponseEntity.ok("Paciente eliminado exitosamente");
+        } catch (DataIntegrityViolationException e) {
+            return ResponseEntity.status(HttpStatus.CONFLICT).body(e.getMessage());
+        } catch (ResourceNotFoundException e) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
         }
     }
 }
