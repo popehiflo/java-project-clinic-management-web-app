@@ -62,11 +62,4 @@ public class TurnoService {
         return turnoRepository.findAll();
     }
 
-    public boolean existeTurnoParaOdontologo(Long odontologoId) {
-        return turnoRepository.existsByOdontologo_Id(odontologoId);
-    }
-
-    public boolean existeTurnoParaPaciente(Long pacienteId) {
-        return turnoRepository.existsByPaciente_Id(pacienteId);
-    }
 }

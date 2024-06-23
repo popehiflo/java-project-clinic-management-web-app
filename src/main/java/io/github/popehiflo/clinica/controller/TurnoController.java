@@ -4,6 +4,7 @@ import io.github.popehiflo.clinica.entity.Turno;
 import io.github.popehiflo.clinica.exception.ResourceNotFoundException;
 import io.github.popehiflo.clinica.service.TurnoService;
 import org.apache.log4j.Logger;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -53,7 +54,7 @@ public class TurnoController {
             turnoService.eliminarTurno(id);
             return ResponseEntity.ok("Turno eliminado exitosamente");
         } catch (ResourceNotFoundException e) {
-            return ResponseEntity.notFound().build();
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
         }
     }
 }

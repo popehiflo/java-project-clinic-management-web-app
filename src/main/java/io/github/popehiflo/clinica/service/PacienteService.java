@@ -13,11 +13,11 @@ import java.util.Optional;
 public class PacienteService {
 
     private final PacienteRepository pacienteRepository;
-    private final TurnoService turnoService;
+    private final TurnoValidationService turnoValidationService;
 
-    public PacienteService(PacienteRepository pacienteRepository, TurnoService turnoService) {
+    public PacienteService(PacienteRepository pacienteRepository, TurnoValidationService turnoValidationService) {
         this.pacienteRepository = pacienteRepository;
-        this.turnoService = turnoService;
+        this.turnoValidationService = turnoValidationService;
     }
 
     public Paciente crearPaciente(Paciente paciente) {
@@ -46,7 +46,7 @@ public class PacienteService {
     public void eliminarPaciente(Long id) {
         Optional<Paciente> pacienteBuscado = pacienteRepository.findById(id);
         if (pacienteBuscado.isPresent()) {
-            if (turnoService.existeTurnoParaPaciente(id)) {
+            if (turnoValidationService.existeTurnoParaPaciente(id)) {
                 throw new DataIntegrityViolationException("No se puede eliminar el paciente porque tiene turnos asignados");
             }
             pacienteRepository.deleteById(id);

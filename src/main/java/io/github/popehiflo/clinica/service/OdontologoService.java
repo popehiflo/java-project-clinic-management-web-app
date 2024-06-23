@@ -13,11 +13,11 @@ import java.util.Optional;
 public class OdontologoService {
 
     private final OdontologoRepository odontologoRepository;
-    private final TurnoService turnoService;
+    private final TurnoValidationService turnoValidationService;
 
-    public OdontologoService(OdontologoRepository odontologoRepository, TurnoService turnoService) {
+    public OdontologoService(OdontologoRepository odontologoRepository, TurnoValidationService turnoValidationService) {
         this.odontologoRepository = odontologoRepository;
-        this.turnoService = turnoService;
+        this.turnoValidationService = turnoValidationService;
     }
 
     public Odontologo crearOdontologo(Odontologo odontologo) {
@@ -46,8 +46,8 @@ public class OdontologoService {
     public void eliminarOdontologo(Long id) {
         Optional<Odontologo> odontologoBuscado = odontologoRepository.findById(id);
         if (odontologoBuscado.isPresent()) {
-            if (turnoService.existeTurnoParaOdontologo(id)) {
-                throw new DataIntegrityViolationException("No se puede eliminar el odontólogo porque tiene citas asignadas");
+            if (turnoValidationService.existeTurnoParaOdontologo(id)) {
+                throw new DataIntegrityViolationException("No se puede eliminar el odontólogo porque tiene turnos asignados");
             }
             odontologoRepository.deleteById(id);
         } else {
