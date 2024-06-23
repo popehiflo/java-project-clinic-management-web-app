@@ -1,9 +1,12 @@
 package io.github.popehiflo.clinica.controller;
 
 import io.github.popehiflo.clinica.entity.Odontologo;
+import io.github.popehiflo.clinica.exception.DataIntegrityViolationException;
+import io.github.popehiflo.clinica.exception.ResourceNotFoundException;
 import io.github.popehiflo.clinica.service.OdontologoService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,8 +19,11 @@ public class OdontologoController {
 
     private static final Logger LOG = Logger.getLogger(OdontologoController.class);
 
-    @Autowired
-    private OdontologoService odontologoService;
+    private final OdontologoService odontologoService;
+
+    public OdontologoController(OdontologoService odontologoService) {
+        this.odontologoService = odontologoService;
+    }
 
     @PostMapping
     public ResponseEntity<Odontologo> registrarUnOdontologo(@RequestBody Odontologo odontologo) {
@@ -28,37 +34,21 @@ public class OdontologoController {
     @GetMapping("/{id}")
     public ResponseEntity<Odontologo> buscarOdontologoPorID(@PathVariable Long id) {
         LOG.info("Odontologo: inicio de búsqueda de odontologo: {}");
-        Optional<Odontologo> odontologoBuscado = odontologoService.buscarOdontologoPorID(id);
-        if (odontologoBuscado.isPresent()) {
-            return ResponseEntity.ok(odontologoBuscado.get());
-        } else {
-            //TODO: Aquí deberíamos lanzar una excepción ResourceNotFoundException / ObjectNotFoundException
-            return ResponseEntity.notFound().build();
-        }
+        Odontologo odontologoBuscado = odontologoService.buscarOdontologoPorID(id);
+        return ResponseEntity.ok(odontologoBuscado);
     }
 
     @PutMapping
-    public ResponseEntity<String> actualizarOdontologo(@RequestBody Odontologo odontologo) {
+    public ResponseEntity<Odontologo> actualizarOdontologo(@RequestBody Odontologo odontologo) {
         LOG.info("Odontologo: inicio de actualizar: {}");
-        Optional<Odontologo> odontologoBuscado = odontologoService.buscarOdontologoPorID(odontologo.getId());
-        if (odontologoBuscado.isPresent()) {
-            odontologoService.actualizarOdontologo(odontologo);
-            return ResponseEntity.ok("odontólogo actualizado");
-        } else {
-            //TODO: Aquí deberíamos lanzar una excepción ResourceNotFoundException / ObjectNotFoundException
-            return ResponseEntity.badRequest().body("no se encontró el odontólogo");
-        }
+        Odontologo odontologoActualizado = odontologoService.actualizarOdontologo(odontologo);
+        return ResponseEntity.ok(odontologoActualizado);
     }
 
     @GetMapping("/matricula/{matricula}")
     public ResponseEntity<Odontologo> buscarPacientePorMatricula(@PathVariable String matricula) {
-        Optional<Odontologo> odontologoBuscado = odontologoService.buscarOdontologoPorMatricula(matricula);
-        if (odontologoBuscado.isPresent()) {
-            return ResponseEntity.ok(odontologoBuscado.get());
-        } else {
-            //TODO: Aquí deberíamos lanzar una excepción ResourceNotFoundException o ObjectNotFoundException
-            return ResponseEntity.notFound().build();
-        }
+        Odontologo odontologoBuscado = odontologoService.buscarOdontologoPorMatricula(matricula);
+        return ResponseEntity.ok(odontologoBuscado);
     }
 
     @GetMapping
@@ -70,13 +60,13 @@ public class OdontologoController {
     @DeleteMapping("/{id}")
     public ResponseEntity<String> eliminarOdontologo(@PathVariable Long id) {
         LOG.info("Odontologo: inicio de eliminar paciente con ID: {}");
-        Optional<Odontologo> odontologoBuscado = odontologoService.buscarOdontologoPorID(id);
-        if (odontologoBuscado.isPresent()) {
+        try {
             odontologoService.eliminarOdontologo(id);
-            return ResponseEntity.ok("odontólogo eliminado con exitosamente");
-        } else {
-            //TODO: Aquí deberíamos lanzar una excepción ResourceNotFoundException o ObjectNotFoundException
-            return ResponseEntity.notFound().build();
+            return ResponseEntity.ok("Odontólogo eliminado exitosamente");
+        } catch (DataIntegrityViolationException e) {
+            return ResponseEntity.status(HttpStatus.CONFLICT).body(e.getMessage());
+        } catch (ResourceNotFoundException e) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
         }
     }
 }
