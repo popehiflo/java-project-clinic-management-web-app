@@ -342,3 +342,220 @@
 [2024-06-24 10:05:12] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
 [2024-06-24 10:07:18] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
 [2024-06-24 10:07:36] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-24 10:13:56] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-24 10:14:02] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-24 10:14:12] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-24 10:14:20] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-24 10:14:20] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-24 10:14:20] [ INFO ] [TurnoService:84] Se encontraron {} turnos 1
+[2024-06-24 11:33:43] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-24 11:33:43] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-24 11:33:43] [ INFO ] [TurnoService:84] Se encontraron {} turnos 0
+[2024-06-24 11:38:33] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-24 11:38:33] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-24 11:38:33] [ INFO ] [TurnoService:84] Se encontraron {} turnos 0
+[2024-06-24 11:40:20] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-24 11:40:20] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-24 11:40:20] [ INFO ] [TurnoService:84] Se encontraron {} turnos 0
+[2024-06-24 11:46:11] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@5ebd80f8
+[2024-06-24 11:46:11] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@5ebd80f8
+[2024-06-24 11:47:04] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@41f274d
+[2024-06-24 11:47:04] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@41f274d
+[2024-06-24 11:47:04] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-24 11:47:04] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-24 11:47:04] [ INFO ] [TurnoService:84] Se encontraron {} turnos 0
+[2024-06-24 11:47:04] [ INFO ] [TurnoController:40] Turno: inicio de actualizar: {}io.github.popehiflo.clinica.dto.TurnoDTO@52aa84ef
+[2024-06-24 11:47:04] [ INFO ] [TurnoService:45] Actualizando turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@52aa84ef
+[2024-06-24 12:01:45] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@3ca43e5d
+[2024-06-24 12:01:45] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@3ca43e5d
+[2024-06-24 12:01:45] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-24 12:01:45] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-24 12:01:45] [ INFO ] [TurnoService:84] Se encontraron {} turnos 0
+[2024-06-24 12:01:45] [ INFO ] [TurnoController:40] Turno: inicio de actualizar: {}io.github.popehiflo.clinica.dto.TurnoDTO@7d2ccd7f
+[2024-06-24 12:01:45] [ INFO ] [TurnoService:45] Actualizando turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@7d2ccd7f
+[2024-06-24 12:07:04] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@5fe08
+[2024-06-24 12:07:04] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@5fe08
+[2024-06-24 12:07:04] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-24 12:07:04] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-24 12:07:04] [ INFO ] [TurnoService:84] Se encontraron {} turnos 0
+[2024-06-24 12:07:04] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@3f8961fc
+[2024-06-24 12:07:04] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@3f8961fc
+[2024-06-24 12:07:04] [ INFO ] [TurnoController:40] Turno: inicio de actualizar: {}io.github.popehiflo.clinica.dto.TurnoDTO@65067d90
+[2024-06-24 12:07:04] [ INFO ] [TurnoService:45] Actualizando turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@65067d90
+[2024-06-24 12:25:39] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@1104cc93
+[2024-06-24 12:25:39] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@1104cc93
+[2024-06-24 12:25:39] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@204b1903
+[2024-06-24 12:25:39] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@1ef4179
+[2024-06-24 12:25:39] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@1ef4179
+[2024-06-24 12:25:39] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@6e48b9ed
+[2024-06-24 12:25:39] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@6e48b9ed
+[2024-06-24 12:25:39] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-24 12:25:39] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-24 12:25:39] [ INFO ] [TurnoService:84] Se encontraron {} turnos 1
+[2024-06-24 12:25:39] [ INFO ] [TurnoController:40] Turno: inicio de actualizar: {}io.github.popehiflo.clinica.dto.TurnoDTO@2179127d
+[2024-06-24 12:25:39] [ INFO ] [TurnoService:45] Actualizando turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@2179127d
+[2024-06-24 12:34:10] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@58192546
+[2024-06-24 12:34:10] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@58192546
+[2024-06-24 12:34:10] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@3f4b59fd
+[2024-06-24 12:34:10] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@4a592d22
+[2024-06-24 12:34:10] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@4a592d22
+[2024-06-24 12:34:10] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@6dbe6891
+[2024-06-24 12:34:10] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@6dbe6891
+[2024-06-24 12:34:10] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-24 12:34:10] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-24 12:34:10] [ INFO ] [TurnoService:84] Se encontraron {} turnos 1
+[2024-06-24 12:34:10] [ INFO ] [TurnoController:40] Turno: inicio de actualizar: {}io.github.popehiflo.clinica.dto.TurnoDTO@3652ce04
+[2024-06-24 12:34:10] [ INFO ] [TurnoService:45] Actualizando turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@3652ce04
+[2024-06-24 12:36:55] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@bf32f3f
+[2024-06-24 12:36:55] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@bf32f3f
+[2024-06-24 12:36:55] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@280d20fb
+[2024-06-24 12:36:55] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@4a23be9
+[2024-06-24 12:36:55] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@4a23be9
+[2024-06-24 12:36:55] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@414d5660
+[2024-06-24 12:36:55] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@414d5660
+[2024-06-24 12:36:55] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-24 12:36:55] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-24 12:36:56] [ INFO ] [TurnoService:84] Se encontraron {} turnos 1
+[2024-06-24 12:36:56] [ INFO ] [TurnoController:40] Turno: inicio de actualizar: {}io.github.popehiflo.clinica.dto.TurnoDTO@2c62f56f
+[2024-06-24 12:36:56] [ INFO ] [TurnoService:45] Actualizando turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@2c62f56f
+[2024-06-24 12:55:02] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@7e9b68c5
+[2024-06-24 12:55:02] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@7e9b68c5
+[2024-06-24 12:55:02] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@21f48f6c
+[2024-06-24 12:55:02] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@3cc9bde9
+[2024-06-24 12:55:02] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@3cc9bde9
+[2024-06-24 12:55:02] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@9930ff6
+[2024-06-24 12:55:02] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@9930ff6
+[2024-06-24 12:55:02] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-24 12:55:02] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-24 12:55:03] [ INFO ] [TurnoService:84] Se encontraron {} turnos 1
+[2024-06-24 14:51:00] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@1f748d43
+[2024-06-24 14:51:00] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@1f748d43
+[2024-06-24 14:51:00] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@441a2d52
+[2024-06-24 14:51:00] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@322f6283
+[2024-06-24 14:51:00] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@322f6283
+[2024-06-24 14:51:00] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@4086e003
+[2024-06-24 14:51:00] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@ab7ac41
+[2024-06-24 14:51:01] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@ab7ac41
+[2024-06-24 14:51:01] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@780e6b63
+[2024-06-24 14:51:01] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@780e6b63
+[2024-06-24 14:51:01] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@7f77d839
+[2024-06-24 14:51:01] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@b9750f0
+[2024-06-24 14:51:01] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@b9750f0
+[2024-06-24 14:51:01] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@74061ced
+[2024-06-24 14:51:01] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@74061ced
+[2024-06-24 14:51:01] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@6f2bb798
+[2024-06-24 14:51:01] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-24 14:51:01] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-24 14:51:01] [ INFO ] [TurnoService:84] Se encontraron {} turnos 4
+[2024-06-24 14:51:01] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@4c2057c6
+[2024-06-24 14:51:01] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@4c2057c6
+[2024-06-24 14:51:01] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@65f270e7
+[2024-06-24 14:51:01] [ INFO ] [TurnoController:34] Turno: inicio de búsqueda de turno por ID: {}5
+[2024-06-24 14:51:01] [ INFO ] [TurnoService:63] Buscando turno por ID: {} 5
+[2024-06-24 14:51:01] [ INFO ] [TurnoService:66] Turno encontrado: {} io.github.popehiflo.clinica.entity.Turno@310df168
+[2024-06-24 14:51:01] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@5edeb83e
+[2024-06-24 14:51:01] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@5edeb83e
+[2024-06-24 14:51:01] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@3846ba32
+[2024-06-24 14:51:01] [ INFO ] [TurnoController:40] Turno: inicio de actualizar: {}io.github.popehiflo.clinica.dto.TurnoDTO@693676d
+[2024-06-24 14:51:01] [ INFO ] [TurnoService:45] Actualizando turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@693676d
+[2024-06-24 14:51:01] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@7c943143
+[2024-06-24 14:51:01] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@7c943143
+[2024-06-24 14:51:01] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@c3972d0
+[2024-06-24 14:51:01] [ INFO ] [TurnoController:53] Turno: inicio de eliminar turno con ID: {}7
+[2024-06-24 14:51:01] [ INFO ] [TurnoService:71] Eliminando turno con ID: {}7
+[2024-06-24 14:51:01] [ INFO ] [TurnoService:75] Turno eliminado
+[2024-06-24 14:51:01] [ INFO ] [TurnoController:34] Turno: inicio de búsqueda de turno por ID: {}7
+[2024-06-24 14:51:01] [ INFO ] [TurnoService:63] Buscando turno por ID: {} 7
+[2024-06-24 14:54:35] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@5c1605e2
+[2024-06-24 14:54:35] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@5c1605e2
+[2024-06-24 14:54:35] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@512319dc
+[2024-06-24 14:55:55] [ INFO ] [TurnoController:40] Turno: inicio de actualizar: {}io.github.popehiflo.clinica.dto.TurnoDTO@2aa176de
+[2024-06-24 14:55:55] [ INFO ] [TurnoService:45] Actualizando turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@2aa176de
+[2024-06-24 14:56:21] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@275ff5f8
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@275ff5f8
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@161974d1
+[2024-06-24 14:56:21] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@6a06b374
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@6a06b374
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@5d96b0f
+[2024-06-24 14:56:21] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@12ebfc66
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@12ebfc66
+[2024-06-24 14:56:21] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@75af5f2a
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@75af5f2a
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@1435feb6
+[2024-06-24 14:56:21] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@3de8e614
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@3de8e614
+[2024-06-24 14:56:21] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@188caeaf
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@188caeaf
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@504f2bcd
+[2024-06-24 14:56:21] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:84] Se encontraron {} turnos 4
+[2024-06-24 14:56:21] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@8be84bf
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@8be84bf
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@2ab4c4e
+[2024-06-24 14:56:21] [ INFO ] [TurnoController:34] Turno: inicio de búsqueda de turno por ID: {}5
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:63] Buscando turno por ID: {} 5
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:66] Turno encontrado: {} io.github.popehiflo.clinica.entity.Turno@5edeb83e
+[2024-06-24 14:56:21] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@2640f5ea
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@2640f5ea
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@5563a63f
+[2024-06-24 14:56:21] [ INFO ] [TurnoController:40] Turno: inicio de actualizar: {}io.github.popehiflo.clinica.dto.TurnoDTO@629fc74d
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:45] Actualizando turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@629fc74d
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:55] Turno actualizado: {} io.github.popehiflo.clinica.entity.Turno@77376e83
+[2024-06-24 14:56:21] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@6272936b
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@6272936b
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@4fae8455
+[2024-06-24 14:56:21] [ INFO ] [TurnoController:53] Turno: inicio de eliminar turno con ID: {}7
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:71] Eliminando turno con ID: {}7
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:75] Turno eliminado
+[2024-06-24 14:56:21] [ INFO ] [TurnoController:34] Turno: inicio de búsqueda de turno por ID: {}7
+[2024-06-24 14:56:21] [ INFO ] [TurnoService:63] Buscando turno por ID: {} 7
+[2024-06-24 14:59:56] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@1988e095
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@1988e095
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@6ecf239d
+[2024-06-24 14:59:56] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@34fe89a5
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@34fe89a5
+[2024-06-24 14:59:56] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@40f7fb45
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@40f7fb45
+[2024-06-24 14:59:56] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:84] Se encontraron {} turnos 1
+[2024-06-24 14:59:56] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@aee3d6e
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@aee3d6e
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@c9ba9e2
+[2024-06-24 14:59:56] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@4c752425
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@4c752425
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@45da40ad
+[2024-06-24 14:59:56] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@1b32aaca
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@1b32aaca
+[2024-06-24 14:59:56] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@5e91b051
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@5e91b051
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@2e856aa4
+[2024-06-24 14:59:56] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@6f1b0ead
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@6f1b0ead
+[2024-06-24 14:59:56] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@4825aad0
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@4825aad0
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@314e240c
+[2024-06-24 14:59:56] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:84] Se encontraron {} turnos 5
+[2024-06-24 14:59:56] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@3dcf26b5
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@3dcf26b5
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@1e085e71
+[2024-06-24 14:59:56] [ INFO ] [TurnoController:34] Turno: inicio de búsqueda de turno por ID: {}6
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:63] Buscando turno por ID: {} 6
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:66] Turno encontrado: {} io.github.popehiflo.clinica.entity.Turno@69c03fa2
+[2024-06-24 14:59:56] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@b94c22d
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@b94c22d
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@9da20f1
+[2024-06-24 14:59:56] [ INFO ] [TurnoController:40] Turno: inicio de actualizar: {}io.github.popehiflo.clinica.dto.TurnoDTO@7313e4fb
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:45] Actualizando turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@7313e4fb
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:55] Turno actualizado: {} io.github.popehiflo.clinica.entity.Turno@253fb3fa
+[2024-06-24 14:59:56] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@15db4dc
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@15db4dc
+[2024-06-24 14:59:56] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@5e7aa27e
+[2024-06-24 14:59:57] [ INFO ] [TurnoController:53] Turno: inicio de eliminar turno con ID: {}8
+[2024-06-24 14:59:57] [ INFO ] [TurnoService:71] Eliminando turno con ID: {}8
+[2024-06-24 14:59:57] [ INFO ] [TurnoService:75] Turno eliminado
+[2024-06-24 14:59:57] [ INFO ] [TurnoController:34] Turno: inicio de búsqueda de turno por ID: {}8
+[2024-06-24 14:59:57] [ INFO ] [TurnoService:63] Buscando turno por ID: {} 8
