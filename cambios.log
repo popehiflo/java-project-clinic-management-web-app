@@ -1,0 +1,341 @@
+[2024-06-22 21:02:24] [ INFO ] [PacienteController:67] Paciente: inicio de listar todos: {}
+[2024-06-22 21:03:07] [ INFO ] [PacienteController:25] Paciente: inicio de registro de nuevo paciente: {}
+[2024-06-22 21:03:25] [ INFO ] [PacienteController:31] Paciente: inicio de búsqueda de paciente: {}
+[2024-06-22 21:16:34] [ INFO ] [PacienteController:67] Paciente: inicio de listar todos: {}
+[2024-06-23 00:03:28] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 07:21:10] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 07:27:35] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 07:28:07] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 07:29:37] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 07:32:28] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 07:52:44] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 07:58:18] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 08:05:12] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 08:05:18] [ INFO ] [OdontologoController:72] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 08:05:27] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 08:37:30] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 08:37:45] [ INFO ] [OdontologoController:72] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 08:38:59] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 08:41:53] [ INFO ] [OdontologoController:24] Odontologo: inicio de registro de nuevo odontologo: {}
+[2024-06-23 08:42:06] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 08:42:58] [ INFO ] [OdontologoController:72] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 08:47:03] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 08:47:17] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 08:48:47] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 08:49:31] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 08:49:36] [ INFO ] [OdontologoController:72] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 08:49:49] [ INFO ] [OdontologoController:24] Odontologo: inicio de registro de nuevo odontologo: {}
+[2024-06-23 08:49:55] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 08:50:19] [ INFO ] [OdontologoController:24] Odontologo: inicio de registro de nuevo odontologo: {}
+[2024-06-23 08:50:24] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 08:50:32] [ INFO ] [OdontologoController:72] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 08:51:02] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 08:55:36] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 08:55:52] [ INFO ] [OdontologoController:30] Odontologo: inicio de búsqueda de odontologo: {}
+[2024-06-23 08:57:02] [ INFO ] [OdontologoController:42] Odontologo: inicio de actualizar: {}
+[2024-06-23 08:57:02] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 08:57:21] [ INFO ] [OdontologoController:30] Odontologo: inicio de búsqueda de odontologo: {}
+[2024-06-23 08:57:58] [ INFO ] [OdontologoController:30] Odontologo: inicio de búsqueda de odontologo: {}
+[2024-06-23 08:58:07] [ INFO ] [OdontologoController:42] Odontologo: inicio de actualizar: {}
+[2024-06-23 08:58:08] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 08:58:17] [ INFO ] [OdontologoController:30] Odontologo: inicio de búsqueda de odontologo: {}
+[2024-06-23 08:58:27] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 08:58:29] [ INFO ] [OdontologoController:30] Odontologo: inicio de búsqueda de odontologo: {}
+[2024-06-23 09:09:08] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 09:09:15] [ INFO ] [OdontologoController:30] Odontologo: inicio de búsqueda de odontologo: {}
+[2024-06-23 09:09:26] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 09:09:53] [ INFO ] [OdontologoController:30] Odontologo: inicio de búsqueda de odontologo: {}
+[2024-06-23 09:10:04] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 09:10:14] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 09:10:20] [ INFO ] [OdontologoController:30] Odontologo: inicio de búsqueda de odontologo: {}
+[2024-06-23 09:11:34] [ INFO ] [OdontologoController:42] Odontologo: inicio de actualizar: {}
+[2024-06-23 09:11:34] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 09:28:42] [ INFO ] [OdontologoController:24] Odontologo: inicio de registro de nuevo odontologo: {}
+[2024-06-23 09:37:57] [ INFO ] [OdontologoController:24] Odontologo: inicio de registro de nuevo odontologo: {}
+[2024-06-23 09:41:36] [ INFO ] [OdontologoController:24] Odontologo: inicio de registro de nuevo odontologo: {}
+[2024-06-23 09:45:44] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 09:45:50] [ INFO ] [OdontologoController:30] Odontologo: inicio de búsqueda de odontologo: {}
+[2024-06-23 09:46:19] [ INFO ] [OdontologoController:42] Odontologo: inicio de actualizar: {}
+[2024-06-23 09:46:20] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 09:53:31] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 10:17:22] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 10:17:35] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 10:17:42] [ INFO ] [OdontologoController:30] Odontologo: inicio de búsqueda de odontologo: {}
+[2024-06-23 10:18:00] [ INFO ] [OdontologoController:42] Odontologo: inicio de actualizar: {}
+[2024-06-23 10:18:00] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 10:18:48] [ INFO ] [OdontologoController:24] Odontologo: inicio de registro de nuevo odontologo: {}
+[2024-06-23 10:19:09] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 10:19:28] [ INFO ] [OdontologoController:72] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 10:19:33] [ INFO ] [OdontologoController:66] Odontologo: inicio de listar todos: {}
+[2024-06-23 11:34:14] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 11:34:22] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 11:35:09] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 11:36:35] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 11:36:48] [ INFO ] [PacienteController:60] Turno: inicio de listar todos los turnos: {}
+[2024-06-23 11:37:06] [ INFO ] [OdontologoController:30] Odontologo: inicio de registro de nuevo odontologo: {}
+[2024-06-23 11:37:19] [ INFO ] [OdontologoController:36] Odontologo: inicio de búsqueda de odontologo: {}
+[2024-06-23 11:37:53] [ INFO ] [OdontologoController:36] Odontologo: inicio de búsqueda de odontologo: {}
+[2024-06-23 11:38:10] [ INFO ] [OdontologoController:43] Odontologo: inicio de actualizar: {}
+[2024-06-23 11:38:19] [ INFO ] [OdontologoController:43] Odontologo: inicio de actualizar: {}
+[2024-06-23 11:38:27] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 11:38:38] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 11:39:43] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 11:40:14] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 11:41:13] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 11:41:19] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 11:41:28] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:07:43] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:07:48] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:08:06] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:11:00] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:11:06] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:13:15] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:13:18] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:13:22] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:14:22] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:14:25] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:14:47] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:14:50] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:14:57] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:15:58] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:16:02] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:16:05] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:16:10] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:19:29] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:19:31] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:23:13] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:23:15] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:23:17] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:23:46] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:24:45] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:24:49] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:24:53] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:28:39] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:28:42] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:28:50] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:31:16] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:31:18] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:39:52] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:39:55] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:40:09] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:40:22] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:47:52] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:47:56] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:48:01] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:55:00] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:55:03] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:55:18] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:56:30] [ INFO ] [OdontologoController:36] Odontologo: inicio de búsqueda de odontologo: {}
+[2024-06-23 12:56:38] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:56:42] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:56:45] [ INFO ] [OdontologoController:36] Odontologo: inicio de búsqueda de odontologo: {}
+[2024-06-23 12:57:05] [ INFO ] [OdontologoController:43] Odontologo: inicio de actualizar: {}
+[2024-06-23 12:57:05] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 12:57:57] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 12:58:03] [ INFO ] [OdontologoController:36] Odontologo: inicio de búsqueda de odontologo: {}
+[2024-06-23 13:01:04] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 13:01:08] [ INFO ] [OdontologoController:36] Odontologo: inicio de búsqueda de odontologo: {}
+[2024-06-23 13:05:40] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 13:08:10] [ INFO ] [OdontologoController:36] Odontologo: inicio de búsqueda de odontologo: {}
+[2024-06-23 13:08:22] [ INFO ] [OdontologoController:43] Odontologo: inicio de actualizar: {}
+[2024-06-23 13:08:22] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 13:08:24] [ INFO ] [OdontologoController:36] Odontologo: inicio de búsqueda de odontologo: {}
+[2024-06-23 13:08:29] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 13:08:32] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 13:08:41] [ INFO ] [OdontologoController:62] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 13:08:47] [ INFO ] [OdontologoController:43] Odontologo: inicio de actualizar: {}
+[2024-06-23 13:08:47] [ INFO ] [OdontologoController:56] Odontologo: inicio de listar todos: {}
+[2024-06-23 14:33:30] [ INFO ] [PacienteController:57] Paciente: inicio de listar todos: {}
+[2024-06-23 14:34:01] [ INFO ] [PacienteController:31] Paciente: inicio de registro de nuevo paciente: {}
+[2024-06-23 14:34:14] [ INFO ] [PacienteController:37] Paciente: inicio de búsqueda de paciente por ID: {}
+[2024-06-23 14:34:26] [ INFO ] [PacienteController:37] Paciente: inicio de búsqueda de paciente por ID: {}
+[2024-06-23 14:37:29] [ INFO ] [PacienteController:44] Paciente: inicio de actualizar: {}
+[2024-06-23 14:37:40] [ INFO ] [PacienteController:57] Paciente: inicio de listar todos: {}
+[2024-06-23 14:38:18] [ INFO ] [PacienteController:65] Paciente: inicio de eliminar paciente con ID: {}
+[2024-06-23 14:38:28] [ INFO ] [PacienteController:65] Paciente: inicio de eliminar paciente con ID: {}
+[2024-06-23 14:46:49] [ INFO ] [PacienteController:65] Paciente: inicio de eliminar paciente con ID: {}
+[2024-06-23 14:46:54] [ INFO ] [PacienteController:65] Paciente: inicio de eliminar paciente con ID: {}
+[2024-06-23 14:47:55] [ INFO ] [PacienteController:65] Paciente: inicio de eliminar paciente con ID: {}
+[2024-06-23 14:48:21] [ INFO ] [PacienteController:65] Paciente: inicio de eliminar paciente con ID: {}
+[2024-06-23 14:48:28] [ INFO ] [PacienteController:65] Paciente: inicio de eliminar paciente con ID: {}
+[2024-06-23 16:12:48] [ INFO ] [PacienteController:61] Paciente: inicio de eliminar paciente con ID: {}
+[2024-06-23 16:12:57] [ INFO ] [TurnoController:45] Turno: inicio de listar todos los turnos: {}
+[2024-06-23 16:13:22] [ INFO ] [OdontologoController:60] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 16:14:15] [ INFO ] [OdontologoController:60] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 16:14:22] [ INFO ] [TurnoController:45] Turno: inicio de listar todos los turnos: {}
+[2024-06-23 16:16:55] [ INFO ] [TurnoController:26] Turno: inicio de registro de un nuevo turno: {}
+[2024-06-23 16:17:42] [ INFO ] [TurnoController:26] Turno: inicio de registro de un nuevo turno: {}
+[2024-06-23 16:19:39] [ INFO ] [TurnoController:32] Turno: inicio de búsqueda de turno por ID: {}
+[2024-06-23 16:19:50] [ INFO ] [TurnoController:32] Turno: inicio de búsqueda de turno por ID: {}
+[2024-06-23 16:19:58] [ INFO ] [TurnoController:32] Turno: inicio de búsqueda de turno por ID: {}
+[2024-06-23 16:21:57] [ INFO ] [TurnoController:51] Turno: inicio de eliminar turno con ID: {}
+[2024-06-23 16:22:37] [ INFO ] [TurnoController:52] Turno: inicio de eliminar turno con ID: {}
+[2024-06-23 16:23:07] [ INFO ] [TurnoController:46] Turno: inicio de listar todos los turnos: {}
+[2024-06-23 16:23:22] [ INFO ] [TurnoController:52] Turno: inicio de eliminar turno con ID: {}
+[2024-06-23 16:23:27] [ INFO ] [TurnoController:52] Turno: inicio de eliminar turno con ID: {}
+[2024-06-23 16:23:34] [ INFO ] [TurnoController:46] Turno: inicio de listar todos los turnos: {}
+[2024-06-23 16:23:41] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 16:23:48] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-23 16:38:13] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-23 16:38:22] [ INFO ] [OdontologoController:60] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 16:38:29] [ INFO ] [OdontologoController:60] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 16:38:47] [ INFO ] [OdontologoController:28] Odontologo: inicio de registro de nuevo odontologo: {}
+[2024-06-23 16:38:52] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-23 16:39:00] [ INFO ] [OdontologoController:34] Odontologo: inicio de búsqueda de odontologo: {}
+[2024-06-23 16:39:16] [ INFO ] [OdontologoController:41] Odontologo: inicio de actualizar: {}
+[2024-06-23 16:39:17] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-23 16:39:24] [ INFO ] [OdontologoController:60] Odontologo: inicio de eliminar paciente con ID: {}
+[2024-06-23 16:50:45] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-23 16:50:53] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-23 16:51:03] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-23 16:51:06] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-23 16:51:52] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-23 16:54:32] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-23 16:54:49] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-23 16:54:54] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-23 17:00:18] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 17:00:28] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 17:00:31] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-23 17:00:36] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 17:04:51] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 17:05:22] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-23 17:05:29] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 17:07:05] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-23 17:07:08] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 17:12:18] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 17:16:54] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 17:16:57] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 17:17:02] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 17:33:51] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 17:35:31] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 17:42:14] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 17:48:09] [ INFO ] [PacienteController:29] Paciente: inicio de registro de nuevo paciente: {}
+[2024-06-23 17:49:04] [ INFO ] [PacienteController:29] Paciente: inicio de registro de nuevo paciente: {}
+[2024-06-23 17:50:05] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 17:50:29] [ INFO ] [PacienteController:29] Paciente: inicio de registro de nuevo paciente: {}
+[2024-06-23 17:50:44] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 17:58:38] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 17:58:42] [ INFO ] [PacienteController:61] Paciente: inicio de eliminar paciente con ID: {}
+[2024-06-23 17:58:49] [ INFO ] [PacienteController:61] Paciente: inicio de eliminar paciente con ID: {}
+[2024-06-23 17:59:39] [ INFO ] [PacienteController:29] Paciente: inicio de registro de nuevo paciente: {}
+[2024-06-23 17:59:55] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 18:00:10] [ INFO ] [PacienteController:61] Paciente: inicio de eliminar paciente con ID: {}
+[2024-06-23 18:00:13] [ INFO ] [PacienteController:61] Paciente: inicio de eliminar paciente con ID: {}
+[2024-06-23 18:21:43] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 18:21:46] [ INFO ] [PacienteController:35] Paciente: inicio de búsqueda de paciente por ID: {}
+[2024-06-23 18:25:15] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 18:25:19] [ INFO ] [PacienteController:61] Paciente: inicio de eliminar paciente con ID: {}
+[2024-06-23 18:25:33] [ INFO ] [PacienteController:29] Paciente: inicio de registro de nuevo paciente: {}
+[2024-06-23 18:25:39] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 18:25:41] [ INFO ] [PacienteController:35] Paciente: inicio de búsqueda de paciente por ID: {}
+[2024-06-23 18:26:10] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 18:27:46] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 18:27:49] [ INFO ] [PacienteController:61] Paciente: inicio de eliminar paciente con ID: {}
+[2024-06-23 18:28:00] [ INFO ] [PacienteController:35] Paciente: inicio de búsqueda de paciente por ID: {}
+[2024-06-23 18:28:48] [ INFO ] [PacienteController:42] Paciente: inicio de actualizar: {}
+[2024-06-23 18:28:49] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 18:29:27] [ INFO ] [PacienteController:61] Paciente: inicio de eliminar paciente con ID: {}
+[2024-06-23 18:29:32] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 18:29:50] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 18:29:57] [ INFO ] [PacienteController:61] Paciente: inicio de eliminar paciente con ID: {}
+[2024-06-23 18:31:18] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 19:03:47] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-23 19:06:38] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}
+[2024-06-23 19:06:49] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-23 19:38:44] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-23 19:39:13] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}
+[2024-06-23 19:45:36] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}
+[2024-06-23 19:51:53] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}
+[2024-06-23 19:52:10] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}
+[2024-06-23 19:52:53] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}
+[2024-06-23 19:53:12] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}
+[2024-06-23 20:23:10] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-23 20:23:10] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-23 20:23:10] [ INFO ] [TurnoService:84] Se encontraron {} turnos 1
+[2024-06-23 20:23:23] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@26e4f769
+[2024-06-23 20:23:23] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@26e4f769
+[2024-06-23 20:23:23] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@7915b77d
+[2024-06-23 20:23:28] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-23 20:23:28] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-23 20:23:28] [ INFO ] [TurnoService:84] Se encontraron {} turnos 2
+[2024-06-23 20:23:36] [ INFO ] [TurnoController:34] Turno: inicio de búsqueda de turno por ID: {}3
+[2024-06-23 20:23:36] [ INFO ] [TurnoService:63] Buscando turno por ID: {} 3
+[2024-06-23 20:23:45] [ INFO ] [TurnoController:34] Turno: inicio de búsqueda de turno por ID: {}2
+[2024-06-23 20:23:45] [ INFO ] [TurnoService:63] Buscando turno por ID: {} 2
+[2024-06-23 20:23:45] [ INFO ] [TurnoService:66] Turno encontrado: {} io.github.popehiflo.clinica.entity.Turno@100028c6
+[2024-06-23 20:23:58] [ INFO ] [TurnoController:53] Turno: inicio de eliminar turno con ID: {}5
+[2024-06-23 20:23:58] [ INFO ] [TurnoService:71] Eliminando turno con ID: {}5
+[2024-06-23 20:23:58] [ ERROR] [TurnoController:58] Error al eliminar turno: {}Turno no encontrado
+[2024-06-23 20:24:04] [ INFO ] [TurnoController:53] Turno: inicio de eliminar turno con ID: {}2
+[2024-06-23 20:24:04] [ INFO ] [TurnoService:71] Eliminando turno con ID: {}2
+[2024-06-23 20:24:04] [ INFO ] [TurnoService:75] Turno eliminado
+[2024-06-23 20:42:49] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-23 20:42:49] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-23 20:42:49] [ INFO ] [TurnoService:84] Se encontraron {} turnos 1
+[2024-06-23 20:51:53] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-23 20:51:53] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-23 20:51:53] [ INFO ] [TurnoService:84] Se encontraron {} turnos 1
+[2024-06-23 20:51:59] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-23 20:51:59] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-23 20:51:59] [ INFO ] [TurnoService:84] Se encontraron {} turnos 1
+[2024-06-23 20:56:46] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@54e09b5
+[2024-06-23 20:56:46] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@54e09b5
+[2024-06-23 20:56:54] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@19935f26
+[2024-06-23 20:56:54] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@19935f26
+[2024-06-23 20:56:54] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@d381bd8
+[2024-06-23 20:56:56] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-23 20:56:56] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-23 20:56:56] [ INFO ] [TurnoService:84] Se encontraron {} turnos 2
+[2024-06-23 21:04:28] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-23 21:04:28] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-23 21:04:28] [ INFO ] [TurnoService:84] Se encontraron {} turnos 1
+[2024-06-23 21:04:38] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@5d0aee67
+[2024-06-23 21:04:38] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@5d0aee67
+[2024-06-23 21:04:39] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@2ab4eedc
+[2024-06-23 21:04:42] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-23 21:04:42] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-23 21:04:42] [ INFO ] [TurnoService:84] Se encontraron {} turnos 2
+[2024-06-23 21:04:46] [ INFO ] [TurnoController:34] Turno: inicio de búsqueda de turno por ID: {}2
+[2024-06-23 21:04:46] [ INFO ] [TurnoService:63] Buscando turno por ID: {} 2
+[2024-06-23 21:04:46] [ INFO ] [TurnoService:66] Turno encontrado: {} io.github.popehiflo.clinica.entity.Turno@553db190
+[2024-06-23 21:05:10] [ INFO ] [TurnoController:40] Turno: inicio de actualizar: {}io.github.popehiflo.clinica.dto.TurnoDTO@57aa7313
+[2024-06-23 21:05:10] [ INFO ] [TurnoService:45] Actualizando turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@57aa7313
+[2024-06-23 21:05:10] [ INFO ] [TurnoService:55] Turno actualizado: {} io.github.popehiflo.clinica.entity.Turno@50bd1d71
+[2024-06-23 21:05:10] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-23 21:05:10] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-23 21:05:10] [ INFO ] [TurnoService:84] Se encontraron {} turnos 2
+[2024-06-23 21:07:21] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-23 21:07:21] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-23 21:07:22] [ INFO ] [TurnoService:84] Se encontraron {} turnos 1
+[2024-06-23 21:07:35] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@39ffba1
+[2024-06-23 21:07:35] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@39ffba1
+[2024-06-23 21:07:35] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@62dc2470
+[2024-06-23 21:07:41] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@1597c299
+[2024-06-23 21:07:41] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@1597c299
+[2024-06-23 21:07:53] [ INFO ] [TurnoController:28] Turno: inicio de registro de un nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@1aa563a2
+[2024-06-23 21:07:53] [ INFO ] [TurnoService:32] Creando nuevo turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@1aa563a2
+[2024-06-23 21:07:53] [ INFO ] [TurnoService:40] Turno creado: {}io.github.popehiflo.clinica.entity.Turno@a910ddc
+[2024-06-23 21:07:54] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-23 21:07:54] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-23 21:07:54] [ INFO ] [TurnoService:84] Se encontraron {} turnos 3
+[2024-06-23 21:08:01] [ INFO ] [TurnoController:34] Turno: inicio de búsqueda de turno por ID: {}3
+[2024-06-23 21:08:01] [ INFO ] [TurnoService:63] Buscando turno por ID: {} 3
+[2024-06-23 21:08:01] [ INFO ] [TurnoService:66] Turno encontrado: {} io.github.popehiflo.clinica.entity.Turno@49f8c099
+[2024-06-23 21:08:23] [ INFO ] [TurnoController:40] Turno: inicio de actualizar: {}io.github.popehiflo.clinica.dto.TurnoDTO@112dec79
+[2024-06-23 21:08:23] [ INFO ] [TurnoService:45] Actualizando turno: {}io.github.popehiflo.clinica.dto.TurnoDTO@112dec79
+[2024-06-23 21:08:23] [ INFO ] [TurnoService:55] Turno actualizado: {} io.github.popehiflo.clinica.entity.Turno@7a0257a0
+[2024-06-23 21:08:23] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-23 21:08:23] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-23 21:08:23] [ INFO ] [TurnoService:84] Se encontraron {} turnos 3
+[2024-06-23 21:08:30] [ INFO ] [TurnoController:53] Turno: inicio de eliminar turno con ID: {}3
+[2024-06-23 21:08:30] [ INFO ] [TurnoService:71] Eliminando turno con ID: {}3
+[2024-06-23 21:08:30] [ INFO ] [TurnoService:75] Turno eliminado
+[2024-06-23 21:08:33] [ INFO ] [TurnoController:47] Turno: inicio de listar todos los turnos: {}
+[2024-06-23 21:08:33] [ INFO ] [TurnoService:82] Listando todos los turnos
+[2024-06-23 21:08:33] [ INFO ] [TurnoService:84] Se encontraron {} turnos 2
+[2024-06-23 21:12:04] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-23 21:14:22] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-23 21:14:25] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-23 21:28:47] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
+[2024-06-23 21:29:12] [ INFO ] [PacienteController:55] Paciente: inicio de listar todos: {}
+[2024-06-23 21:43:26] [ INFO ] [OdontologoController:54] Odontologo: inicio de listar todos: {}
