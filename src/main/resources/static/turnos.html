@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Odontólogos - popehiflo</title>
+    <title>Turnos - popehiflo</title>
     <meta name="description" content="Gestión de clínica odontológica by Pool Petter Hijuela Florian - popehiflo">
     <meta content="" name="clínica, pacientes, doctores, citas, turnos">
 
@@ -110,7 +110,7 @@
             <a class="nav-link collapsed" data-bs-target="#pacientes-nav" data-bs-toggle="collapse" href="#">
                 <i class="bi bi-journal-text"></i><span>Pacientes</span><i class="bi bi-chevron-down ms-auto"></i>
             </a>
-            <ul id="pacientes-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <ul id="pacientes-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
                 <li>
                     <a href="nuevo-paciente.html">
                         <i class="bi bi-circle"></i><span>Guardar</span>
@@ -125,12 +125,12 @@
         </li><!-- End Pacientes Nav -->
 
         <li class="nav-item">
-            <a class="nav-link" data-bs-target="#odontologos-nav" data-bs-toggle="collapse" href="#">
+            <a class="nav-link collapsed" data-bs-target="#odontologos-nav" data-bs-toggle="collapse" href="#">
                 <i class="bi bi-journal-text"></i><span>Odontólogos</span><i class="bi bi-chevron-down ms-auto"></i>
             </a>
-            <ul id="odontologos-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
+            <ul id="odontologos-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
                 <li>
-                    <a href="nuevo-odontologo.html" class="active">
+                    <a href="nuevo-odontologo.html">
                         <i class="bi bi-circle"></i><span>Guardar</span>
                     </a>
                 </li>
@@ -143,17 +143,17 @@
         </li><!-- End Odontologos Nav -->
 
         <li class="nav-item">
-            <a class="nav-link collapsed" data-bs-target="#turnos-nav" data-bs-toggle="collapse" href="#">
+            <a class="nav-link" data-bs-target="#turnos-nav" data-bs-toggle="collapse" href="#">
                 <i class="bi bi-calendar-date"></i><span>Turnos</span><i class="bi bi-chevron-down ms-auto"></i>
             </a>
-            <ul id="turnos-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <ul id="turnos-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
                 <li>
                     <a href="nuevo-turno.html">
                         <i class="bi bi-circle"></i><span>Guardar</span>
                     </a>
                 </li>
                 <li>
-                    <a href="turnos.html">
+                    <a href="turnos.html" class="active">
                         <i class="bi bi-circle"></i><span>Listar</span>
                     </a>
                 </li>
@@ -166,57 +166,80 @@
 <main id="main" class="main">
 
     <div class="pagetitle">
-        <h1>Odontólogos</h1>
+        <h1>Turnos</h1>
         <nav>
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-                <li class="breadcrumb-item">Odontólogos</li>
-                <li class="breadcrumb-item active">Nuevo</li>
+                <li class="breadcrumb-item">Turnos</li>
+                <li class="breadcrumb-item active">Listar</li>
             </ol>
         </nav>
     </div><!-- End Page Title -->
 
     <section class="section">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-12" id="div_turno_table">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Nuevo Odontólogo</h5>
-                        <form id="add_new_odontologo">
-                            <div class="row mb-3">
-                                <label class="col-sm-2 col-form-label" for="matricula">Matricula</label>
-                                <div class="col-sm-10">
-                                    <input class="form-control" id="matricula" name="matricula"
-                                           placeholder="Ingrese la matricula"
-                                           required type="text"></input>
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <label class="col-sm-2 col-form-label" for="nombre">Nombre</label>
-                                <div class="col-sm-10">
-                                    <input class="form-control" id="nombre" name="nombre"
-                                           placeholder="Ingrese el nombre"
-                                           required type="text"></input>
-                                </div>
-                            </div>
+                        <h5 class="card-title">Lista de Turnos</h5>
+                        <table class="table table-striped" id="turnoTable">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Id</th>
+                                    <th scope="col">Paciente</th>
+                                    <th scope="col">Odontólogo</th>>
+                                    <th scope="col">Fecha de Turno</th>
+                                </tr>
+                            </thead>
+                            <tbody id="turnoTableBody">
 
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div><!-- End Table Odontólogo -->
+        <div class="row">
+            <div id="response" style="display:none; margin:10px"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6" id="div_turno_updating" style="display: none;">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Modificar Turno</h5>
+                        <form id="update_turno_form">
                             <div class="row mb-3">
-                                <label class="col-sm-2 col-form-label" for="apellido">Apellido</label>
+                                <label class="col-sm-2 col-form-label" for="turno_id">Id</label>
                                 <div class="col-sm-10">
-                                    <input class="form-control" id="apellido" name="apellido"
-                                           placeholder="Ingrese el apellido"
+                                    <input class="form-control" id="turno_id" readonly type="text">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="pacienteId">PacienteId</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" id="pacienteId" placeholder="pacienteId" type="text" required>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="odontologoId">OdontologoId</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" id="odontologoId" placeholder="odontologoId" type="text" required>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label class="col-sm-2 col-form-label" for="fecha">Fecha</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" id="fecha" name="fecha"
+                                           placeholder="Fecha de turno: YYYY-MM-DD"
                                            required type="text"></input>
                                 </div>
                             </div>
 
                             <div class="mb-3 text-center">
-                                <button class="btn btn-primary" id="btn-add-new-odontologo"
-                                        type="submit">Guardar
-                                </button>
-                                <a class="btn btn-secondary" href="./odontologos.html">Cancelar</a>
+                                <button class="btn btn-primary" type="submit">Modificar</button>
+                                <a class="btn btn-secondary" href="./turnos.html">Ir a lista de Pacientes</a>
                             </div>
                         </form>
-                        <div id="response" style="display:none; margin-top:10px"></div>
                     </div>
                 </div>
             </div>
@@ -244,7 +267,9 @@
 <script src="assets/js/main.js"></script>
 
 <script src="/js/get_usuario.js" type="text/javascript"></script>
-<script src="/js/odontologo/post_odontologo.js" type="text/javascript"></script>
+<script src="/js/turno/get_turnos.js" type="text/javascript"></script>
+<script src="/js/turno/update_turno.js" type="text/javascript"></script>
+<script src="/js/turno/delete_turno.js" type="text/javascript"></script>
 </body>
 
 </html>
